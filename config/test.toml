@@ -1,0 +1,8 @@
+# config file
+
+port = ":8080"
+intervalSeconds = 5
+
+[wechat]
+openId = "your-own-openId"
+sessionId = "your-own-sessionId"
