@@ -39,12 +39,12 @@ func GenChart(t time.Time) error {
 			continue
 		}
 
-		totalNum, err := strconv.ParseFloat(record[1], 32)
+		currentNum, err := strconv.ParseFloat(record[1], 32)
 		if err != nil {
 			continue
 		}
 
-		currentNum, err := strconv.ParseFloat(record[2], 32)
+		totalNum, err := strconv.ParseFloat(record[2], 32)
 		if err != nil {
 			continue
 		}
